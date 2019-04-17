@@ -1,6 +1,6 @@
 {
   "name": "esy-automake",
-  "version": "1.0.000",
+  "version": "1.16.000",
   "description": "Automake packaged for esy",
   "esy": {
     "buildsInSource": true,
@@ -11,8 +11,7 @@
       [
         "chmod",
         "755",
-        "./configure",
-        "./lib/install-sh"
+        "./configure"
       ],
       [
         "ln",
@@ -35,6 +34,6 @@
     ]
   },
   "dependencies": {
-    "esy-autoconf": "https://github.com/esy-packages/esy-autoconf/archive/v2.10.001.tar.gz#b8ee4dcd7a95db381cffc0f169a61dc3f90ab257"
+    "esy-autoconf": "esy-packages/esy-autoconf#94f846f3ad69fc65c65a61dd7fd3d70073dc93ea"
   }
 }
